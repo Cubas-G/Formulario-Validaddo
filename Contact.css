@@ -19,6 +19,7 @@
   height: 33rem;
   width: 70%;
   border-radius: 1rem;
+  box-shadow: 0px 0px 10px rgb(10, 1, 138);
 }
 
 .Letters,
@@ -74,26 +75,33 @@ button {
   margin-top: 0.5rem;
   margin-left: 3%;
   width: 90%;
+  height: 2rem;
   padding: 0.5rem;
   font-size: 1rem;
-  border-radius: 0.25rem;
-  border: 1px solid #ccc;
   margin-bottom: 1rem;
+  border-radius: 0.2rem;
+}
+
+
+input:hover {
+  background: linear-gradient(to right, #9994b1, #bdbaba);
 }
 
 button {
+  margin-left: 5%;
   background-color: #007bff;
   color: #fff;
   padding: 0.5rem 1rem;
   font-size: 1rem;
   border-radius: 0.25rem;
   cursor: pointer;
+  height: 3rem;
 }
 
 button:hover {
   background-color: #0069d9;
 }
-
+2
 button:active {
   background-color: #005cbf;
 }
